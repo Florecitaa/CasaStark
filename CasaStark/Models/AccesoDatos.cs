@@ -6,7 +6,7 @@ namespace CasaStark.Models
     {
         //almacenar la cadena de conexion a la base de datos
         private readonly string _conexion;
-
+         
         public AccesoDatos(IConfiguration configuracion)
         {
             _conexion = configuracion.GetConnectionString("Conexion");
