@@ -1,6 +1,6 @@
 ﻿namespace CasaStark.Models
 {
-    public class Miembro
+    public class Miembros
     {
 
         public int Id { get; set; }
